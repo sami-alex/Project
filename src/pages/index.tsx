@@ -6,6 +6,7 @@ import VisionSection from "@/sections/landingPage/vision";
 import FooterSection from "@/sections/landingPage/footer";
 import Header from "@/sections/landingPage/header";
 import WaitingSection from "@/sections/landingPage/waitList";
+import FaqSection from "@/sections/landingPage/faq";
 export default function Home() {
   return (
     <>
@@ -16,7 +17,11 @@ export default function Home() {
         <AboutUsSection />
       </Container>
       <VisionSection />
+      <Container maxWidth="xl">
+        <FaqSection />
+      </Container>
       <WaitingSection />
+
       <Container maxWidth="xl">
         <FooterSection />
       </Container>
